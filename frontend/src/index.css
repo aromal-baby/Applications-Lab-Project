@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+text:ital,wght@0,200..900;1,200..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --accent-yellow: #A8896A;
+  --primary-white: #FFFFFF;
+  --secondary-white: #F9F9F9;
+  --primary-black: #000000;
+  --accent-gray: #1E1E1B;
+  --hero-women-text: #7A4F39;
+}
+
+html, body {
+  width: 100%;
+  /*
+  background-color: var(--secondary-white);
+  */
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+img {
+  will-change: transform;
+  transform: translateZ(0); /* Force hardware acceleration */
+  image-rendering: optimizeQuality;
+}
+
+
+@utility hero-text-overlay-light {
+    @apply bg-white/90 text-gray-900 px-1.25 py-1 shadow-lg h-[44.41px] w-[340px] text-center;
+}
+
+@utility hero-text-overlay-dark{
+    @apply bg-black text-[var(--primary-white)] px-1.25 py-1 shadow-lg h-[44.41px] w-[340px] text-center;
+}
+
+@utility category-name {
+  @apply text-center mt-3
+}

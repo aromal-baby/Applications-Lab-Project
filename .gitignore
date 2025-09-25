@@ -1,0 +1,15 @@
+﻿# IntelliJ IDEA
+.idea/
+*.iml
+
+# Environment files
+/frontend/.env
+/backend/.env
+.env
+
+# Node.js
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+[33mbb6841b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Commit and push conflicted by the .env files as they contain sensitive content like stripe API. So, I am trying to push this after removing those. Don't know if this will
+[33mfbcb377[m Remove .env files and update .gitignore
+[33mda6caad[m Ignore .env files
+[33m53df508[m Implemented most of the backend part struggled to get it connected as i was using a static approach also some more ending. Implemented the stripe external API for the payment
+[33m37cac6c[m Made the functionalities all made working, like clicking the product tile to navigae to detailed page, implemented checkout and order confirmation page. omplemented stripe for payment function so, one of the external API [art is done . some minor issues products enetring with images and polishing is left
+[33m3455641[m[33m ([m[1;31morigin/main[m[33m)[m Set up remaining ui components implemented admin panel perfectly executed some functionalities like adding to cart, wishlist but not properly implemented
+[33m3de3e79[m Made so many changes in the past weeks I lost track of What I have done but still stuck on the frontend components moving on to the backend today(Hopefully)
+[33m766abfd[m Added Some product cards for components as featured card which also contains the category cards added navbar and separated the announcement bar at the top below navbar for better animation while scrolling. Now figuring out the best animation to hide and show nav and announcement flawlessly
+[33md2f10aa[m Merge remote main (README) into local main
+[33m32147ea[m resolving some merging isssues
