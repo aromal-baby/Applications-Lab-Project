@@ -46,48 +46,38 @@ router.put('/profile', auth, async (req, res) => {
 
 // To change the password
 router.put('/change-password', auth, async (req, res) => {
-
     try {
         const { currentPassword, newPassword } = req.body;
 
-        // Validate input
+        // 1) validate input
         if (!currentPassword || !newPassword) {
-            return res.status(401).json({
-                message: 'Current and new password are required'
-            });
+            return res.status(400).json({ message: 'Current and new password are required' });
         }
-
         if (newPassword.length < 6) {
-            return res.status(401).json({ message: 'User not found' });
+            return res.status(400).json({ message: 'New password must be at least 6 characters' });
         }
 
-        // Getting the user first
+        // 2) load user
         const user = await User.findById(req.user._id);
-        if (!user) {
-            return res.status(404).json({ message: 'User not found' });
+        if (!user) return res.status(404).json({ message: 'User not found' });
+
+        // 3) verify current password
+        const ok = await user.comparePassword(currentPassword);
+        if (!ok) return res.status(400).json({ message: 'Current password is incorrect' });
+
+        // 4) ensure new password is different
+        const same = await bcrypt.compare(newPassword, user.password);
+        if (same) {
+            return res.status(400).json({ message: 'New password must be different from the current password' });
         }
 
-        // Verifying the current password
-        const isCurrentPasswordValid = await user.comparePassword(currentPassword);
-        if (!isCurrentPasswordValid) {
-            return res.status(400).json({ message: 'Current password is incorrect' });
-        }
-
-        // Checking if the new password is different from the current one
-        const isSamePassword = await user.confirmPassword(newPassword);
-        if (!isSamePassword) {
-            return res.status(401).json({
-                message: 'New password must be different from the current password'
-            });
-        }
-
-        // Updating password (Will be hashed by the pre-saved middleware)
-        User.password = newPassword;
-        await User.save();
+        // 5) set + save (pre-save hook hashes it)
+        user.password = newPassword;
+        await user.save();
 
         res.json({ success: true, message: 'Password changed successfully' });
-    } catch (error) {
-        console.error('Change password error:', error);
+    } catch (err) {
+        console.error('Change password error:', err);
         res.status(500).json({ message: 'Server error' });
     }
 });

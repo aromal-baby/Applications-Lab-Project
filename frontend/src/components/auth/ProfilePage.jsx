@@ -115,8 +115,8 @@ const ProfilePage = () => {
         setPasswordLoading(true)
         try {
             const response = await userAPI.changePassword({
-                currentPassword: passwordData.newPassword,
-                newPassword: passwordData.confirmPassword,
+                currentPassword: passwordData.currentPassword,
+                newPassword: passwordData.newPassword,
             })
 
             if (response.success) {
