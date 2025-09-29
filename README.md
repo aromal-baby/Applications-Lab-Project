@@ -305,20 +305,32 @@ For support, email support@luxe-store.com or join our Slack channel.
 
 ## Demo & Preview
 
-### Screenshots (Client - side) :
+### Screenshots 
+####(Client - side) :
 
-https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot1.png
+
 <p align="center">
   <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot1.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/aromal-baby/Mojito.d--UX-landing-page-/main/public/images/Mojito%202.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/aromal-baby/Mojito.d--UX-landing-page-/main/public/images/Mojito%203.png" width="30%" />
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot2.png" width="30%" />
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot3.png" width="30%" />
 </p>
 
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aromal-baby/Mojito.d--UX-landing-page-/main/public/images/Mojito%204.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/aromal-baby/Mojito.d--UX-landing-page-/main/public/images/Mojito%205.png" width="30%" />
-  <img src="https://raw.githubusercontent.com/aromal-baby/Mojito.d--UX-landing-page-/main/public/images/Mojito%206.png" width="30%" />
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot4.png" width="30%" />
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot5.png" width="30%" />
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot6.png" width="30%" />
 </p>
+
+
+####(Admin - side) 
+
+<p align="center">
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot7.png" width="30%" />
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot8.png" width="30%" />
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot9.png" width="30%" />
+</p>
+
 
 
 
