@@ -94,8 +94,8 @@ luxe-ecommerce/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/luxe-ecommerce.git
-cd luxe-ecommerce
+git clone https://github.com/aromal-baby/Luxe-Clothing.git
+cd Luxe-Clothng
 ```
 
 2. **Install dependencies**
@@ -105,7 +105,7 @@ cd server
 npm install
 
 # Install client dependencies
-cd ../client
+cd frontend
 npm install
 ```
 
@@ -140,9 +140,11 @@ docker run -d -p 27017:27017 --name mongodb mongo:latest
 6. **Start the application**
 ```bash
 # Start server (from server directory)
+cd backend
 npm run dev
 
 # Start client (from client directory)
+cd frontend
 npm run dev
 ```
 
@@ -271,7 +273,6 @@ VITE_API_BASE_URL=your-backend-url
 ## Known Issues
 
 - Image uploads limited to local storage (consider cloud storage for production)
-- No payment integration (Stripe/PayPal integration needed)
 - Email notifications not implemented
 - Search functionality is basic (consider Elasticsearch for advanced search)
 
@@ -300,3 +301,24 @@ For support, email support@luxe-store.com or join our Slack channel.
 - Tailwind CSS for the utility-first CSS framework
 - React community for excellent documentation and resources
 - MongoDB team for the flexible NoSQL database
+
+
+## Demo & Preview
+
+### Screenshots (Client - side) :
+
+https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot1.png
+<p align="center">
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot1.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/aromal-baby/Mojito.d--UX-landing-page-/main/public/images/Mojito%202.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/aromal-baby/Mojito.d--UX-landing-page-/main/public/images/Mojito%203.png" width="30%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aromal-baby/Mojito.d--UX-landing-page-/main/public/images/Mojito%204.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/aromal-baby/Mojito.d--UX-landing-page-/main/public/images/Mojito%205.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/aromal-baby/Mojito.d--UX-landing-page-/main/public/images/Mojito%206.png" width="30%" />
+</p>
+
+
+
