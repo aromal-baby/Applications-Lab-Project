@@ -322,7 +322,7 @@ For support, email support@luxe-store.com or join our Slack channel.
 </p>
 
 
-### (Admin - side) 
+### (Admin - side) :
 
 <p align="center">
   <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot7.png" width="30%" />
