@@ -305,8 +305,7 @@ For support, email support@luxe-store.com or join our Slack channel.
 
 ## Demo & Preview
 
-### Screenshots 
-####(Client - side) :
+### Screenshots (Client - side) :
 
 
 <p align="center">
@@ -323,7 +322,7 @@ For support, email support@luxe-store.com or join our Slack channel.
 </p>
 
 
-####(Admin - side) 
+###(Admin - side) 
 
 <p align="center">
   <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot7.png" width="30%" />
@@ -331,6 +330,14 @@ For support, email support@luxe-store.com or join our Slack channel.
   <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot9.png" width="30%" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot10.png" width="30%" />
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot11.png" width="30%" />
+  <img src="https://github.com/aromal-baby/Applications-Lab-Project/blob/main/frontend/public/images/Screenshot12.png" width="30%" />
+</p>
 
+
+### DEmo Video
+[🎥 Watch Demo Video on YouTube](https://youtu.be/JUVa50G9AS4)
 
 
